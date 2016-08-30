@@ -1,11 +1,11 @@
 <?php
-	var_dump($_REQUEST);
+	//var_dump($_REQUEST);
 
 	if (strlen($_POST['mensaje']) > 5) 
 	{
-		include "mayoracinco.html";	
+		include "mayoracinco.php";	
 	}else
 	{
-		include "menoracinco.html";
+		include "menoracinco.php";
 	}
 ?>

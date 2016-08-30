@@ -15,7 +15,7 @@
 
 	//echo "Hola PHP <br>";
 	
-	echo "Voy a mostrar la variable REQUEST <br>";
+	/*echo "Voy a mostrar la variable REQUEST <br>";
 	var_dump($_REQUEST);
 	echo "<br>";
 	
@@ -28,7 +28,7 @@
 	var_dump($_POST);
 	echo "<br>";
 
-	echo "<br>";
+	echo "<br>";*/
 
 	if (isset($_POST ['mensaje'])) 
 	{
